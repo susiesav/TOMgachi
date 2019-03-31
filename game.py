@@ -26,9 +26,9 @@ class Dog:
 
 def main():
 	pygame.init()
-	happy  = pygame.transform.scale(pygame.image.load("happy_dogge.PNG"), (600, 1200))
-	hungry = pygame.transform.scale(pygame.image.load("hungry_dogge.PNG"), (600, 1200))
-	dead   = pygame.transform.scale(pygame.image.load("RIP.PNG"), (600, 1200))
+	happy  = pygame.transform.scale(pygame.image.load("happy_dogge.png"), (600, 1200))
+	hungry = pygame.transform.scale(pygame.image.load("hungry_dogge.png"), (600, 1200))
+	dead   = pygame.transform.scale(pygame.image.load("RIP.png"), (600, 1200))
 	screen = pygame.display.set_mode((600, 600))
 
 	dog = Dog(happy)
