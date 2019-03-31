@@ -4,6 +4,7 @@
 import time
 import pygame
 
+
 class Dog:
 	def __init__(self, state):
 		self.x = 0
